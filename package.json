@@ -1,0 +1,17 @@
+{
+  "name": "jones-qa-take-home",
+  "version": "1.0.0",
+  "description": "Playwright automation assignment for Jones PropTech SaaS – Junior QA Engineer role.",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
