@@ -2,7 +2,7 @@
 
 This repository contains my submission for the Junior Automation Engineer take-home assignment at Jones PropTech.
 
-## Files:
+## Files
 
 - **`tests/requestCallback.spec.js`** – Playwright automation script that fills and submits the request a call-back form on the target website.
 - **`playwright.config.js`** – Playwright configuration (browsers, timeouts, reporter).
