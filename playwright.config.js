@@ -1,7 +1,3 @@
-// =============================================================================
-// Playwright Configuration – Jones QA Take-Home Assignment
-// =============================================================================
-
 // @ts-check
 const { defineConfig, devices } = require('@playwright/test');
 
@@ -15,7 +11,6 @@ module.exports = defineConfig({
   // Fail the suite fast if a test exceeds this duration (30 s)
   timeout: 30_000,
 
-  // Reporter: 'list' gives clean terminal output; add 'html' for a rich report
   reporter: [['list'], ['html', { open: 'never', outputFolder: 'playwright-report' }]],
 
   use: {
@@ -28,7 +23,7 @@ module.exports = defineConfig({
     // Record a video on the first retry to aid debugging
     video: 'on-first-retry',
 
-    // Slow down actions by 50 ms – useful when running headed for demos
+    // Slow down actions by 50 ms
     // actionTimeout: 0,
   },
 
