@@ -1,6 +1,6 @@
 # Junior Automation Engineer Assignment – Jones
 
-This repository contains my submission for the Junior Automation Engineer take-home assignment at Jones PropTech.
+This repository contains my submission for the Junior Automation Engineer take-home assignment at Jones.
 
 ## Files
 
